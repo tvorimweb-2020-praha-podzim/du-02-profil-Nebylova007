@@ -1,0 +1,98 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+ BARVY
+ czechitas  #b92e81
+ pozadi     #bdc3c7
+ tmava      #31363b
+ delitka    #3f464d
+ portfolio  #e74c3c
+ facebook   #3b5998
+ twitter    #1da1f2
+*/
+
+
+body {
+    background-color: #bdc3c7;
+    color:#fff;
+    width: 250px;
+    margin: 3rem 0 0 2 rem
+    box-shadow  #31363b 0.5px 1px 10px;
+}
+p {
+    font-family: sans-serif,'Montserrat';
+    font-size: 15 px;
+    color: #bdc3c7;
+}
+
+
+.profil {
+    margin: 0 auto;
+    width: 250px;
+    background-color: black;
+    color: #eee;
+}
+
+.profil img {
+    width: 250px;
+}
+
+.obsah {
+    padding: 0 10px;
+    text-align: left;
+    line-height: 21px;
+}
+
+.jmeno{
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.odkazy a{
+    display:inline-block ;
+    color: #bdc3c7;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: sans-serif,'Montserrat';
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.odkazy li{
+    display: inline-block;
+    font-size: 15px;
+}
+.portfolio{
+    border: 1px solid #3f464d;
+    border-style: solid none;
+    width: 100%;
+}
+.facebook{
+    border-right: 1px solid #3f464d;
+    width:50%
+}
+.twitter{
+    width:50%
+}
+.portfolio: :hover
+{
+backhround-color: #e74c3c; 
+
+
+}
+.facebook:hover {
+    background-color: #3b5998;
+
+}
+.twitter:hover {
+    background-color: #1da1f2;
+}
+.logo{
+    position: absolute;
+    left: 205px;
+    top: 190;
+    box-shadow: black 0.5px 1px 10px;
+    border-radius: 50%;
+    background-color: #b92e81;
+}
